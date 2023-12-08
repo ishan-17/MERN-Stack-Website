@@ -1,0 +1,12 @@
+.banner-container {
+  position: relative;
+  height: 60vh; /* Set the height of the banner to 100% of the viewport height */
+  background-image: url('/public/banner-front.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  color: #ffffff; /* Set text color to contrast with the background */
+  text-align: center; /* Center the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
